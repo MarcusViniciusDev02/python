@@ -2,8 +2,8 @@
 # São mutáveis.
 # Aceita qualquer tipo de dados.
 
-empty_list = []  # ou list();
-my_list = ['Categories', 'Wall', 'Floor', 'Roof', 'Ceiling', 'Wall', 'Floor', 'Roof', 'Ceiling']
+# empty_list = []  # ou list();
+# my_list = ['Categories', 'Wall', 'Floor', 'Roof', 'Ceiling', 'Wall', 'Floor', 'Roof', 'Ceiling']
 
 # print(my_list)
 # print(my_list[2]) # Imprime apenas um elemento.
@@ -37,11 +37,11 @@ my_list = ['Categories', 'Wall', 'Floor', 'Roof', 'Ceiling', 'Wall', 'Floor', 'R
 
 # Metodos da lista.
 #-------------------------------------------------------
-listAbc = [40, 35, 12]
-list = [1, 2, 3, 3, 4, 5]
-list[2] = 11111
-list.append(11) # adiciona um item a lista.
-list.append(24)
+# listAbc = [40, 35, 12]
+# list = [1, 2, 3, 3, 4, 5]
+# list[2] = 11111 #Item do índice 2 passa a ser o valor inserido.
+# list.append(11) # adiciona um item a lista.
+# list.append(24)
 # list.extend(listAbc) #Junta duas listas.
 # list.sort() # Imprime em ordem.
 # quantasVezes = list.count(3) #Imprime quantas vezes o elemento aparece na lista.
@@ -55,9 +55,19 @@ list.append(24)
 # copia = list.copy() # Cria uma cópia independente de uma lista.
 # list.append(2222)
 
-x = list #Faz uma referencia a lista.
+# x = list #Faz uma referencia a lista.
 # y= copia #Está pegando a cópia.
 
-print(x)
+# print(x)
 # print(y)
 
+#Tupla - Não podem ser modificadas
+# data = (0,1,2,3,4,5,0,1,2,3,4,5)
+#
+# #Principais funções
+# print(len(data))
+# print(min(data))# valor minimoe
+# print(max(data))# valor máximo
+# print(sum(data))# soma numeros
+# print(sorted(data))#cria lista em ordem.
+# print(tuple(sorted(data)))#converte a lista para tupla
